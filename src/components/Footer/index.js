@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "../Icons";
 import Link from "next/link";
 import siteMetadata from "@/src/utils/siteMetaData";
+import axios from "axios";
 
 const Footer = () => {
   const {
@@ -11,7 +12,32 @@ const Footer = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  
+  const onSubmit = async  (data) => {
+    try {
+      await axios({
+        method: "post",
+        url: "https://live.waypointapi.com/v1/email_messages",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        auth: {
+          username: "658360bc7d67cb7984032eca",
+          password: "FvJPVTto7x6wWqaHSHGiv9UG"
+        },
+        data: {
+          "templateId": "em_rZqmsMeesjBJJd5v",
+          "to": data,
+          "variables": {
+              "displayName": "Tracy",
+              "giftCardPrice": "$55"        
+          } 
+        }
+      })     
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
@@ -19,8 +45,8 @@ const Footer = () => {
         Interesting Stories | Updates | Guides
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe to learn about new technology and updates. Join over 5000+
-        members community to stay up to date with latest news.
+      Subscribe to learn about wealthy wellness, exclusive deals, financial tips, and health advice. Join our community of over 5000+ 
+       to stay up-to-date with the latest news and insights.
       </p>
 
       <form
@@ -31,7 +57,7 @@ const Footer = () => {
           type="email"
           placeholder="Enter your email"
           {...register("email", { required: true, maxLength: 80 })}
-          className="w-full bg-transparent pl-2 sm:pl-0 text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pb-1"
+          className="w-full bg-transparent pl-2 sm:pl-0 text-dark focus:border-dark dark:bg-white focus:ring-0 border-0 border-b mr-2 pb-1"
         />
 
         <input
@@ -76,7 +102,7 @@ const Footer = () => {
 
       <div className="w-full  mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 CodeBucks. All rights reserved.
+          &copy;2023 WealthyWellnessDeals. All rights reserved.
         </span>
         <Link
           href="/sitemap.xml"
@@ -86,8 +112,8 @@ const Footer = () => {
         </Link>
         <div className="text-center">
           Made with &hearts; by{" "}
-          <a href="https://devdreaming.com" className="underline" target="_blank">
-            CodeBucks
+          <a href="https://creativemarket.com/users/WebMasteryStudio" className="underline" target="_blank">
+            WebMasteryStudio
           </a>
         </div>
       </div>
