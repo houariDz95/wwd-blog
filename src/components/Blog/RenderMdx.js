@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React from 'react'
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
 
@@ -9,18 +9,9 @@ const mdxComponents = {
 }
 
 const RenderMdx = ({blog}) => {
-    // const [mobile, setMobile] = useState(false)
-    
-    // useEffect(() => {
-    //   if(window.innerWidth < 768){
-    //     setMobile(true)
-    //   }else{
-    //     setMobile(false)
-    //   }
-    // }, [])
 
     const MDXContent = useMDXComponent(blog.body.code)
-    console.log(blog.body.code)
+
   return (
     <div className='col-span-12  lg:col-span-8 font-in prose sm:prose-base md:prose-lg max-w-max
     prose-blockquote:bg-accent/20 

@@ -1,4 +1,3 @@
-import Banner_720 from "@/banners/banner_720";
 import BlogDetails from "@/src/components/Blog/BlogDetails";
 import RenderMdx from "@/src/components/Blog/RenderMdx";
 import Tag from "@/src/components/Elements/Tag";
@@ -117,7 +116,7 @@ export default function BlogPage({ params }) {
         />
       </div>
       <BlogDetails blog={blog} slug={params.slug} />
-      <Banner_720 />
+
       <div className="grid grid-cols-12  gap-y-8 lg:gap-8 sxl:gap-16 mt-8 px-5 md:px-10">
         <div className="col-span-12  lg:col-span-4">
           <details
