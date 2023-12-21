@@ -1,21 +1,23 @@
 "use client"
+import React from 'react';
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
+
 
 const mdxComponents = {
     Image
 }
 
 const RenderMdx = ({blog}) => {
-    //const [mobile, setMobile] = useState(false)
+    // const [mobile, setMobile] = useState(false)
     
-    {/*useEffect(() => {
-      if(window.innerWidth < 768){
-        setMobile(true)
-      }else{
-        setMobile(false)
-      }
-    }, [])*/}
+    // useEffect(() => {
+    //   if(window.innerWidth < 768){
+    //     setMobile(true)
+    //   }else{
+    //     setMobile(false)
+    //   }
+    // }, [])
 
     const MDXContent = useMDXComponent(blog.body.code)
     console.log(blog.body.code)
