@@ -11,10 +11,10 @@ const siteMetadata = {
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'houedd608@gmail.com', //
     github: 'https://github.com/houariDz95',
-    twitter: 'https://twitter.com/code_bucks',
+    twitter: 'https://twitter.com/',
     facebook: 'https://facebook.com',
     pintrest: 'https://www.pinterest.fr/hoedd294/',
-    linkedin: 'https://www.linkedin.com/in/codebucks/',
+    linkedin: 'https://www.linkedin.com/',
     dribbble: 'https://www.dribbble.com',
     locale: 'en-US',
   }

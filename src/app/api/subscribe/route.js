@@ -1,34 +1,30 @@
 import { NextResponse } from "next/server";
-import axios from 'axios';
+import client from "@mailchimp/mailchimp_marketing";
+
+client.setConfig({
+  apiKey: "e857cc58235072589f121b9397e88d38-us21",
+  server: "us21",
+});
+
 
 export const POST = async (request) => {
-    const { email } = await request.json();
-    console.log('this is the email', email);
-
+    const body = await request.json();
+    const {email} = body;
+    console.log(email)
     try {
-     axios({
-            method: "post",
-            url: "https://live.waypointapi.com/v1/email_messages",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            auth: {
-                username: "658360bc7d67cb7984032eca",
-                password: "FvJPVTto7x6wWqaHSHGiv9UG"
-            },
-            data: {
-                "templateId": "wptemplate_ZN8cZEyQSnSdaVrk",
-                "to": 'hoedd294@gmail.com',
-                "variables": {
-                    "displayName": "Tracy",
-                    "giftCardPrice": "$550"
-                }
-            }
-        });
-        console.log('done')
-        return new NextResponse('Subscribed', { status: 200 });
+
+         const response = await client.lists.addListMember(
+             "9f0106babc", // Replace with your actual audience ID
+             {
+               email_address: email,
+               status: "subscribed",
+             }
+         )
+        console.log(email)
+        return new NextResponse('user has been subscibed', {status: 200})
     } catch (error) {
-        console.log(error.response.data);
-        return new NextResponse("Something went wrong!", { status: 500 });
+        console.log(email)
+        return new NextResponse(JSON.stringify(error.message), {status: 500})
     }
-};
+}
+

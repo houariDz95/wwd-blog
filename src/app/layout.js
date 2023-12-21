@@ -25,6 +25,20 @@ export const metadata = {
     default: siteMetadata.title, // a default is required when creating a template
   },
   description: siteMetadata.description,
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: siteMetadata.siteLogo,
+        href: siteMetadata.siteLogo,
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: siteMetadata.siteLogo,
+        href: siteMetadata.siteLogo,
+      }
+    ]
+  },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,

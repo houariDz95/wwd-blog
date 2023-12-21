@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "../Icons";
 import Link from "next/link";
@@ -7,6 +7,8 @@ import siteMetadata from "@/src/utils/siteMetaData";
 import axios from "axios";
 
 const Footer = () => {
+
+    const [isLoading, setISlaoding] = useState(false)
   const {
     register,
     handleSubmit,
@@ -15,9 +17,13 @@ const Footer = () => {
   
   const onSubmit = async  (data) => {
     try {
-      const response = await axios.post('/api/subscribe', {email: JSON.stringify(data)})
+      setISlaoding(true)
+      const response = await axios.post('/api/subscribe', data)
     } catch (error) {
       console.log(error);
+    }finally{
+      setISlaoding(false)
+      alert("Subscription successful! Thank you for subscribing")
     }
   };
 
@@ -39,13 +45,13 @@ const Footer = () => {
           type="email"
           placeholder="Enter your email"
           {...register("email", { required: true, maxLength: 80 })}
-          className="w-full bg-transparent pl-2 sm:pl-0 text-dark focus:border-dark dark:bg-white focus:ring-0 border-0 border-b mr-2 pb-1"
+          className="w-full bg-transparent pl-2 sm:pl-0 text-dark focus:border-dark dark:text-white focus:ring-0 border-0 border-b mr-2 pb-1"
         />
 
-        <input
+        {!isLoading ? <input
           type="submit"
           className="bg-dark text-light dark:text-dark dark:bg-light cursor-pointer font-medium rounded px-3 sm:px-5 py-1"
-        />
+        /> : <button className="bg-dark text-light dark:text-dark dark:bg-light cursor-pointer font-medium rounded px-3 sm:px-5 py-1" disabled>Submiting...</button>}
       </form>
       <div className="flex items-center mt-8">
         <a
