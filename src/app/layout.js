@@ -73,11 +73,11 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
-        <Script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
+        <script type="text/javascript">
           var infolinks_pid = 3411445;
           var infolinks_wsid = 0;
-        ` }} />
-        <Script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js" />
+          </script>
+        <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
       </body>
     </html>
   );
