@@ -15,25 +15,7 @@ const Footer = () => {
   
   const onSubmit = async  (data) => {
     try {
-      await axios({
-        method: "post",
-        url: "https://live.waypointapi.com/v1/email_messages",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        auth: {
-          username: "658360bc7d67cb7984032eca",
-          password: "FvJPVTto7x6wWqaHSHGiv9UG"
-        },
-        data: {
-          "templateId": "em_rZqmsMeesjBJJd5v",
-          "to": data,
-          "variables": {
-              "displayName": "Tracy",
-              "giftCardPrice": "$55"        
-          } 
-        }
-      })     
+      const response = await axios.post('/api/subscribe', {email: JSON.stringify(data)})
     } catch (error) {
       console.log(error);
     }
