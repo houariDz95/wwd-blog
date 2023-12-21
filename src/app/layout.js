@@ -92,6 +92,7 @@ export default function RootLayout({ children }) {
           var infolinks_wsid = 0;
         ` }} />
         <Script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js" />
+        <Script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g" />
       </body>
     </html>
   );

@@ -1,9 +1,7 @@
-import Script from "next/script"
 
 const Banner_720 = () => {
   return (
     <div>
-        <Script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g" />
         <noscript>
           <a 
           href="https://yllix.com/publishers/895883" 

@@ -1,24 +1,21 @@
 "use client"
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
-import Banner_350 from "@/banners/banner_350";
-import Banner_720 from "@/banners/banner_720";
-import { useState, useEffect } from 'react';
 
 const mdxComponents = {
     Image
 }
 
 const RenderMdx = ({blog}) => {
-    const [mobile, setMobile] = useState(false)
+    //const [mobile, setMobile] = useState(false)
     
-    useEffect(() => {
+    {/*useEffect(() => {
       if(window.innerWidth < 768){
         setMobile(true)
       }else{
         setMobile(false)
       }
-    }, [])
+    }, [])*/}
 
     const MDXContent = useMDXComponent(blog.body.code)
     console.log(blog.body.code)
@@ -44,7 +41,6 @@ const RenderMdx = ({blog}) => {
 
 
     '> 
-        {mobile ? <Banner_350 /> : <Banner_720 />}
         <MDXContent components={mdxComponents}/>
     </div>
   )
