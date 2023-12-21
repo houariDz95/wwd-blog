@@ -8,7 +8,7 @@ const Banner_720 = () => {
           target="_blank">
             <img 
             src="//ylx-aff.advertica-cdn.com/pub/728x90.png" 
-            style="border:none;margin:0;padding:0;vertical-align:baseline;" 
+            style={{border:" none", margin:0, padding:0, verticalAlign: "baseline"}} 
             alt="ylliX - Online Advertising Network" />
           </a>
         </noscript>
