@@ -7,6 +7,7 @@ import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/react';
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
