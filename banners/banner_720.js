@@ -1,8 +1,9 @@
+import Script from "next/script"
 
 const Banner_720 = () => {
   return (
     <div>
-        <noscript>
+        <Script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g" />
           <a 
           href="https://yllix.com/publishers/895883" 
           target="_blank">
@@ -11,7 +12,6 @@ const Banner_720 = () => {
             style={{border:" none", margin:0, padding:0, verticalAlign: "baseline"}} 
             alt="ylliX - Online Advertising Network" />
           </a>
-        </noscript>
     </div>
   )
 }

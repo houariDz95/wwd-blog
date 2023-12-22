@@ -2,7 +2,7 @@
 import React from 'react'
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
-
+import Banner_720 from '@/banners/banner_720'
 
 const mdxComponents = {
     Image
@@ -33,8 +33,10 @@ const RenderMdx = ({blog}) => {
     
 
 
-    '> 
+    '>  
+        <Banner_720 />
         <MDXContent components={mdxComponents}/>
+        <Banner_720 />
     </div>
   )
 }

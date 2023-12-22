@@ -70,6 +70,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=895883&ga=g&side=right&td=1" />
+      </head>
       <body
         className={cx(
           inter.variable,
@@ -87,12 +90,6 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
-        <Script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
-          var infolinks_pid = 3411445;
-          var infolinks_wsid = 0;
-        ` }} />
-        <Script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js" />
-        <Script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g" />
       </body>
     </html>
   );

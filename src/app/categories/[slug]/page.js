@@ -1,4 +1,6 @@
 import { allBlogs } from "@/.contentlayer/generated";
+import Banner_350 from "@/banners/banner_350";
+import Banner_720 from "@/banners/banner_720";
 import BlogLayoutThree from "@/src/components/Blog/BlogLayoutThree";
 import Categories from "@/src/components/Blog/Categories";
 import GithubSlugger, { slug } from "github-slugger";
@@ -56,13 +58,19 @@ const CategoryPage = ({ params }) => {
         </span>
       </div>
       <Categories categories={allCategories} currentSlug={params.slug} />
-
+      <div className="max-w-[752px] mx-auto mt-8 mb-0 px-4">
+        <Banner_720 />
+      </div>
       <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 grid-rows-2 gap-16 mt-5 sm:mt-10 md:mt-24 sxl:mt-32 px-5 sm:px-10 md:px-24 sxl:px-32">
         {blogs.map((blog, index) => (
           <article key={index} className="col-span-1 row-span-1 relative">
             <BlogLayoutThree blog={blog} />
           </article>
         ))}
+      </div>
+      <div className="max-w-[752px] mx-auto flex gap-4">
+        <Banner_350 />
+        <Banner_350 />
       </div>
     </article>
   );
