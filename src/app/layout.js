@@ -41,6 +41,9 @@ export const metadata = {
       }
     ]
   },
+  other: {
+    'impact-site-verification' : '1a644a53-317b-466b-a233-2a630f41a51e'
+  },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
