@@ -81,3 +81,8 @@ code {
   }
 
 
+  [data-rehype-pretty-code-img] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
