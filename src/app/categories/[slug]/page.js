@@ -68,9 +68,10 @@ const CategoryPage = ({ params }) => {
           </article>
         ))}
       </div>
-      <div className="max-w-[752px] mx-auto flex gap-4">
+      <div className="min-w-[752px] mx-auto flex gap-4">
+        <a target="_blank" href="https://shareasale.com/r.cfm?b=1863281&amp;u=4040299&amp;m=35635&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/35635/Untitleddesign-High-Quality2_01.jpg" border="0" alt="Increase metabolism" /></a>
         <Banner_350 />
-        <Banner_350 />
+        <a target="_blank" href="https://shareasale.com/r.cfm?b=2467771&amp;u=4040299&amp;m=35635&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/35635/November-2023-OfficialHCGDietPlanGET.png" border="0" alt="Black Friday Special Sale" /></a>
       </div>
     </article>
   );
