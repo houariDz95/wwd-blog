@@ -41,9 +41,6 @@ export const metadata = {
       }
     ]
   },
-  other: {
-    'impact-site-verification' : '1a644a53-317b-466b-a233-2a630f41a51e'
-  },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
@@ -75,9 +72,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <Script type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=895883&ga=g&side=right&td=1" />
-      </head>
       <body
         className={cx(
           inter.variable,
@@ -92,6 +86,7 @@ export default function RootLayout({ children }) {
     document.documentElement.classList.remove('dark')
   }`}
         </Script>
+        <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <Header />
         {children}
         <Footer />

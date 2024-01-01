@@ -1,19 +1,28 @@
-import Script from "next/script"
+'use client'
+import { useEffect, useRef } from 'react'
+import { isMobile } from 'react-device-detect';
+export default function Banner_720() {
+    const banner = useRef()
 
-const Banner_720 = () => {
-  return (
-    <div>
-        <Script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g" />
-          <a 
-          href="https://yllix.com/publishers/895883" 
-          target="_blank">
-            <img 
-            src="//ylx-aff.advertica-cdn.com/pub/728x90.png" 
-            style={{border:" none", margin:0, padding:0, verticalAlign: "baseline"}} 
-            alt="ylliX - Online Advertising Network" />
-          </a>
-    </div>
-  )
+    const atOptions = {
+		'key' : isMobile ? '89091488e6459fcdac5d419498f68ee0' : 'a2cae1a172fe887aa3f28a123a9e4e17',
+		'format' : 'iframe',
+		'height' : isMobile ? 50 : 90,
+		'width' : isMobile ? 350 : 728,
+		'params' : {}
+    }
+    useEffect(() => {
+    if (banner.current && !banner.current.firstChild) {
+        const conf = document.createElement('script')
+        const script = document.createElement('script')
+        script.type = 'text/javascript'
+        script.src = `//www.profitablecreativeformat.com/${atOptions.key}/invoke.js`
+        conf.innerHTML = `atOptions = ${JSON.stringify(atOptions)}`
+
+        banner.current.append(conf)
+        banner.current.append(script)
+    }
+}, [banner])
+
+    return <div className="mx-2 my-5 w-fit flex justify-center items-center text-white text-center" ref={banner}></div>
 }
-
-export default Banner_720
