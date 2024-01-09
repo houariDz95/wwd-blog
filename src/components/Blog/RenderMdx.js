@@ -34,7 +34,9 @@ const RenderMdx = ({blog}) => {
 
 
     '>  
-        <Banner_720 />
+        <div className='mb-10'>
+          <Banner_720 />
+        </div>
         <MDXContent components={mdxComponents}/>
         <a 
         target="_blank" 
