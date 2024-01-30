@@ -124,6 +124,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        <Script type='text/javascript' src='//pl22341088.toprevenuegate.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js' />
         <Header />
         {children}
         <Footer />
