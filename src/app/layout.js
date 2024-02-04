@@ -67,6 +67,9 @@ export const metadata = {
     title: siteMetadata.title,
     images: [siteMetadata.socialBanner],
   },
+  other: {
+    "monetag" : "7f9b6c527f95819c68abced3d6574029"
+  }
 };
 
 export default function RootLayout({ children }) {
@@ -87,43 +90,7 @@ export default function RootLayout({ children }) {
   }`}
         </Script>
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
-        <Script
-          id="tabunder"
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              var uid = '467853';
-              var wid = '707709';
-              var pop_tag = document.createElement('script');
-              pop_tag.src = '//cdn.popcash.net/show.js';
-              document.body.appendChild(pop_tag);
-              pop_tag.onerror = function () {
-                pop_tag = document.createElement('script');
-                pop_tag.src = '//cdn2.popcash.net/show.js';
-                document.body.appendChild(pop_tag);
-              };
-            `,
-          }}
-        />
-        <Script
-          id="popup"
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              var uid = '467853';
-              var wid = '707709';
-              var pop_fback = 'up';
-              var pop_tag = document.createElement('script');
-              pop_tag.src = '//cdn.popcash.net/show.js';
-              document.body.appendChild(pop_tag);
-              pop_tag.onerror = function () {
-                pop_tag = document.createElement('script');
-                pop_tag.src = '//cdn2.popcash.net/show.js';
-                document.body.appendChild(pop_tag);
-              };
-            `,
-          }}
-        />
+
         <Script type='text/javascript' src='//pl22341088.toprevenuegate.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js' />
         <Header />
         {children}
