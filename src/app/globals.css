@@ -5,7 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+body{
+  direction: rtl;
+}
 h1>a>.icon.icon-link:before,
 h2>a>.icon.icon-link:before,
 h3>a>.icon.icon-link:before{

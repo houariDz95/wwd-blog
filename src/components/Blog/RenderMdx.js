@@ -38,13 +38,7 @@ const RenderMdx = ({blog}) => {
           <Banner_720 />
         </div>
         <MDXContent components={mdxComponents}/>
-        <a 
-        target="_blank" 
-        href="https://shareasale.com/r.cfm?b=2467813&amp;u=4040299&amp;m=35635&amp;urllink=&amp;afftrack=">
-          <img 
-          src="https://static.shareasale.com/image/35635/November-2023-OfficialHCGdietplan_00.png" 
-          border="0" alt="Black Friday Special Sale" />
-        </a>
+        <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
     </div>
   )
 }
