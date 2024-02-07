@@ -54,6 +54,12 @@ export async function generateMetadata({ params }) {
       description: blog.description,
       images: ogImages,
     },
+    facebook: {
+      card: "summary_large_image",
+      title: blog.title,
+      description: blog.description,
+      images: ogImages,    
+    }
   };
 }
 
