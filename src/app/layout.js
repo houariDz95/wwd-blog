@@ -68,7 +68,7 @@ export const metadata = {
     images: [siteMetadata.socialBanner],
   },
   other: {
-    "monetag" : "db9ec2b75c10e144f6002c44db63a127"
+    "monetag" : "7f9b6c527f95819c68abced3d6574029"
   }
 };
 
