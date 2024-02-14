@@ -5,7 +5,7 @@ import RecentPosts from "../components/Home/RecentPosts";
 import Banner_720 from "@/banners/banner_720";
 
 export default function Home() {
-  
+    console.log(allBlogs[0]) 
   return (
     <main className="flex flex-col items-center justify-center">
       <HomeCoverSection blogs={allBlogs} />

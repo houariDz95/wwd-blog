@@ -17,6 +17,7 @@ export async function generateMetadata({ params }) {
     return;
   }
 
+  console.log(blog)
   const publishedAt = new Date(blog.publishedAt).toISOString();
   const modifiedAt = new Date(blog.updatedAt || blog.publishedAt).toISOString();
 
