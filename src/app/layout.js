@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/*<script src="https://alwingulla.com/88/tag.min.js" data-zone="41324" async data-cfasync="false"></script>*/}
+        <script src="https://alwingulla.com/88/tag.min.js" data-zone="41324" async data-cfasync="false"></script>
       </head>
       <body
         className={cx(
