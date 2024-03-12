@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7088299"></script>
-       <Script
+       {/*<Script
             id="in-push"
             dangerouslySetInnerHTML={{
               __html: `
@@ -89,7 +89,7 @@ export default function RootLayout({ children }) {
                 })('soumehoo.net', 7169482, document.createElement('script'));
               `,
             }}
-          />
+          />*/}
         <Script
         id="vignette"
           dangerouslySetInnerHTML={{
