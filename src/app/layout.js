@@ -91,6 +91,19 @@ export default function RootLayout({ children }) {
               `,
             }}
           />
+          <Script 
+          id="popunder" 
+          dangerouslySetInnerHTML={{
+            _html: `
+            (function(s,u,z,p){
+              s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);
+            })(document.createElement('script'),
+            'https://zovidree.com/tag.min.js',
+            7236800,document.body||document.documentElement)
+            `,
+          }}
+          
+          />
         <Script
         id="vignette"
           dangerouslySetInnerHTML={{
