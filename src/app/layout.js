@@ -77,8 +77,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7088299"></script>
-       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7236778"></script>
-       <Script
+       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7236778"></script> */}
+       {/* <Script
             id="in-push"
             dangerouslySetInnerHTML={{
               __html: `
@@ -90,20 +90,7 @@ export default function RootLayout({ children }) {
                 })('soumehoo.net', 7169482, document.createElement('script'));
               `,
             }}
-          />
-          <Script 
-          id="popunder" 
-          dangerouslySetInnerHTML={{
-            _html: `
-            (function(s,u,z,p){
-              s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);
-            })(document.createElement('script'),
-            'https://zovidree.com/tag.min.js',
-            7236800,document.body||document.documentElement)
-            `,
-          }}
-          
-          />
+          /> */}
         <Script
         id="vignette"
           dangerouslySetInnerHTML={{
