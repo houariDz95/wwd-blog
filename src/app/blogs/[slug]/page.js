@@ -6,6 +6,7 @@ import siteMetadata from "@/src/utils/siteMetaData";
 import { allBlogs } from "contentlayer/generated";
 import { slug } from "github-slugger";
 import Image from "next/image";
+import Script from "next/script";
 
 export async function generateStaticParams() {
   return allBlogs.map((blog) => ({ slug: blog._raw.flattenedPath }));
@@ -17,7 +18,6 @@ export async function generateMetadata({ params }) {
     return;
   }
 
-  console.log(blog)
   const publishedAt = new Date(blog.publishedAt).toISOString();
   const modifiedAt = new Date(blog.updatedAt || blog.publishedAt).toISOString();
 
@@ -96,6 +96,7 @@ export default function BlogPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <Script type='text/javascript' src='//pl22931104.profitablegatecpm.com/27/7c/cc/277cccb139255375f748ddfc6b9d01de.js' />
        <article>
       <div className="mb-8 text-center relative w-full h-[70vh] bg-dark">
         <div className="w-full z-10 flex flex-col items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
