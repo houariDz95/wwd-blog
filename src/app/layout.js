@@ -91,7 +91,20 @@ export default function RootLayout({ children }) {
               `,
             }}
           /> */}
-        <Script
+          <script
+          id="in-push"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(d,z,s){
+                s.src='https://'+d+'/400/'+z;
+                try{
+                  (document.body||document.documentElement).appendChild(s);
+                }catch(e){}
+              })('punoocke.com', 7169482, document.createElement('script'));
+            `
+          }}
+        />
+        {/* <Script
         id="vignette"
           dangerouslySetInnerHTML={{
             __html: `
@@ -103,7 +116,7 @@ export default function RootLayout({ children }) {
               })('ossmightyenar.net', 7088304, document.createElement('script'));
             `,
           }}
-        />
+        /> */}
       </head>
       <body
         className={cx(
