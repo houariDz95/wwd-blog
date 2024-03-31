@@ -76,8 +76,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7088299"></script>
-       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7236778"></script> */}
+       {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7088299"></script>*/}
+       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7236778"></script> 
        {/* <Script
             id="in-push"
             dangerouslySetInnerHTML={{
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
               `,
             }}
           /> */}
-          <script
+          <Script
           id="in-push"
           dangerouslySetInnerHTML={{
             __html: `
