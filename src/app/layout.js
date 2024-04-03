@@ -75,6 +75,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <head>
+       <Script src="https://moonoafy.net/pfe/current/tag.min.js?z=7306352" data-cfasync="false" async />
+        <Script
+           id="push"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(s,u,z,p){
+                s.src = u;
+                s.setAttribute('data-zone', z);
+                p.appendChild(s);
+              })(document.createElement('script'), 'https://hoomigri.com/tag.min.js', 7306336, document.body || document.documentElement);
+            `
+          }}
+        />
+      </head>
       <body
         className={cx(
           inter.variable,
@@ -82,58 +97,14 @@ export default function RootLayout({ children }) {
           "font-mr bg-light dark:bg-dark"
         )}
       >
+        <Script type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=895883&ga=g&side=random&td=2" />
         <Script id="theme-switcher" strategy="beforeInteractive">
           {`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    document.documentElement.classList.add('dark')
-  } else {
-    document.documentElement.classList.remove('dark')
-  }`}
+            document.documentElement.classList.add('dark')
+          } else {
+            document.documentElement.classList.remove('dark')
+          }`}
         </Script>
-        <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(yrsujuz){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = yrsujuz || {};
-              s.src = "\/\/palecount.com\/a.W\/5\/weY\/W\/d\/lkQM2n9XkmZTT\/9\/6\/b-2g5hliS\/WNQD9dNXDBk\/0CMLTOIP5DNGiH0R0nOeTRQpxSMSj\/kT3r";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-            })({})
-          `,
-        }}
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(ysheu){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = ysheu || {};
-              s.src = "//palecount.com/b-XpVFs.d/GDlI0nY/WvcS/Weome9/uBZhUelHktPoTRQQ5sN/D/EXyPMHTpIMt_NxD/ko0/MoT/IVxYMTwD";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-            })({})
-          `,
-        }}
-      />
-       <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(bpm){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = bpm || {};
-              s.src = "//palecount.com/bUX/V/s.dGGmlV0vY/WId/iQYmWU5/uRZ/XSIb/FeLm/9Ou/ZoUrlSkTPETmQB5hNQDDEzxRNjzXYbtDNBDfkM0zMET/Er3_NxwY";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-            })({})
-          `
-        }}
-      />
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
