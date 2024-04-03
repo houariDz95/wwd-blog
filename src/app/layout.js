@@ -89,6 +89,21 @@ export default function RootLayout({ children }) {
     document.documentElement.classList.remove('dark')
   }`}
         </Script>
+        <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(yrsujuz){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = yrsujuz || {};
+              s.src = "\/\/palecount.com\/a.W\/5\/weY\/W\/d\/lkQM2n9XkmZTT\/9\/6\/b-2g5hliS\/WNQD9dNXDBk\/0CMLTOIP5DNGiH0R0nOeTRQpxSMSj\/kT3r";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+            })({})
+          `,
+        }}
+      />
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
