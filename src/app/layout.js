@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <head>
        <Script src="https://moonoafy.net/pfe/current/tag.min.js?z=7306352" data-cfasync="false" async />
-        <Script
+        {/* <Script
            id="push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
               })(document.createElement('script'), 'https://hoomigri.com/tag.min.js', 7306336, document.body || document.documentElement);
             `
           }}
-        />
+        /> */}
       </head>
       <body
         className={cx(

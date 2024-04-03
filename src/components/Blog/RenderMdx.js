@@ -38,8 +38,8 @@ const RenderMdx = ({blog}) => {
     '>  
         <div className='mb-10 overflow-hidden'>
           <Banner_720 />
-          <script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g"></script>
-          <noscript><a href="https://yllix.com/publishers/895883" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/728x90.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
+          <Script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=895883&format=728x90&ga=g" />
+          <noscript><a href="https://yllix.com/publishers/895883" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/728x90.png"  style={{border:"none", margin:0,padding:0,verticalAlign:"baseline"}} alt="ylliX - Online Advertising Network" /></a></noscript>
         </div>
         <MDXContent components={mdxComponents}/>
         <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
