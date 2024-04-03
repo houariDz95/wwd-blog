@@ -76,7 +76,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-       <Script src="https://moonoafy.net/pfe/current/tag.min.js?z=7306352" data-cfasync="false" async />
+       <script src="https://moonoafy.net/pfe/current/tag.min.js?z=7306352" data-cfasync="false" async ></script>
+       <sript type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=895883&ga=g&side=random&td=2" ></sript>
         {/* <Script
            id="push"
           dangerouslySetInnerHTML={{
@@ -97,7 +98,6 @@ export default function RootLayout({ children }) {
           "font-mr bg-light dark:bg-dark"
         )}
       >
-        <Script type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=895883&ga=g&side=random&td=2" />
         <Script id="theme-switcher" strategy="beforeInteractive">
           {`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
