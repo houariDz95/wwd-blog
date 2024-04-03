@@ -119,6 +119,21 @@ export default function RootLayout({ children }) {
           `,
         }}
       />
+       <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(bpm){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = bpm || {};
+              s.src = "//palecount.com/bUX/V/s.dGGmlV0vY/WId/iQYmWU5/uRZ/XSIb/FeLm/9Ou/ZoUrlSkTPETmQB5hNQDDEzxRNjzXYbtDNBDfkM0zMET/Er3_NxwY";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+            })({})
+          `
+        }}
+      />
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
