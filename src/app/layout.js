@@ -76,10 +76,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-       <script type="text/javascript" src="https://udbaa.com/bnr.php?section=square&pub=895883&format=300x250&ga=g" ></script>
-       <script src="https://propu.sh/pfe/current/tag.min.js?z=7306352" data-cfasync="false" async></script>
-       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7236778"></script>
-       <sript type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=895883&ga=g&side=random&td=2" ></sript>
+       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
         {/* <Script
            id="push"
           dangerouslySetInnerHTML={{
