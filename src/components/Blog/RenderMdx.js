@@ -4,8 +4,6 @@ import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
 import Banner_720 from '@/banners/banner_720'
 import Script from 'next/script'
-import Banner_350 from '@/banners/banner_350'
-import Banner_480 from '@/banners/banner_480'
 
 const mdxComponents = {
     Image
