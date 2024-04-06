@@ -5,7 +5,7 @@ export default function Banner_720() {
     const banner = useRef()
 
     const atOptions = {
-		'key' : isMobile ? '89091488e6459fcdac5d419498f68ee0' : 'a2cae1a172fe887aa3f28a123a9e4e17',
+		'key' :isMobile ? '89091488e6459fcdac5d419498f68ee0' : 'a2cae1a172fe887aa3f28a123a9e4e17',
 		'format' : 'iframe',
 		'height' : isMobile ? 50 : 90,
 		'width' : isMobile ? 350 : 728,
