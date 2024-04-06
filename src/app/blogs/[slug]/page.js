@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
   }
   const ogImages = imageList.map((img) => {
     return { url: img.includes("http") ? img : siteMetadata.siteUrl + img };
-  });
+  }); 
 
   const authors = blog?.author ? [blog.author] : siteMetadata.author;
 
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: blog.title,
       description: blog.description,
-      images: ogImages,    
+      images: blog.image.filePath.replace("../public", ""),    
     }
   };
 }
