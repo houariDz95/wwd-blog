@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-        <Script
+        {/* <Script
           id="in-push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
               })('ileeckut.com', 7325933, document.createElement('script'));
             `
           }}
-        />
+        /> */}
 
         <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
         {/*<Script
