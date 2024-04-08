@@ -76,8 +76,22 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
-        {/* <Script
+        <Script
+          id="push"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(d,z,s){
+                s.src='https://'+d+'/400/'+z;
+                try{
+                  (document.body||document.documentElement).appendChild(s)
+                }catch(e){}
+              })('ileeckut.com', 7325933, document.createElement('script'));
+            `
+          }}
+        />
+
+        {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
+        <Script
            id="push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -88,7 +102,7 @@ export default function RootLayout({ children }) {
               })(document.createElement('script'), 'https://hoomigri.com/tag.min.js', 7306336, document.body || document.documentElement);
             `
           }}
-        /> */}
+        />  */}
       </head>
       <body
         className={cx(
