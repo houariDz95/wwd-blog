@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center">
       <HomeCoverSection blogs={allBlogs} />
       <FeaturedPosts blogs={allBlogs} />
-      <div className="max-w-[720px] mx-auto mt-8 overflow-hidden">
+      <div className="w-full mt-8 overflow-x-hidden">
         <Banner_720 />
       </div>
       <RecentPosts blogs={allBlogs} />
