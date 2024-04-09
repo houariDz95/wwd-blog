@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
           }}
         /> */}
 
-        {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script> */}
+        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script> 
         <script src="https://d3u598arehftfk.cloudfront.net/prebid_hb_6524_15259.js" async> </script>
         {/*<Script
            id="push"
