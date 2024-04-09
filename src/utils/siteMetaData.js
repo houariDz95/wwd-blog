@@ -6,7 +6,7 @@ const siteMetadata = {
     description: 'Explore the intersection of wealth and wellness with our blog. Discover exclusive deals, tips for financial prosperity, and insights into maintaining a healthy lifestyle.',
     language: 'en-us',
     theme: 'system', // system, dark or light
-    siteUrl: 'https://www.rukn-books.org/', // your website URL
+    siteUrl: 'https://techhubtalks.pro/', // your website URL
     siteLogo: '/logo.svg',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'houedd608@gmail.com', //
