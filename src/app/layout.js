@@ -76,22 +76,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-        {/* <Script
-          id="in-push"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(d,z,s){
-                s.src='https://'+d+'/400/'+z;
-                try{
-                  (document.body||document.documentElement).appendChild(s)
-                }catch(e){}
-              })('ileeckut.com', 7325933, document.createElement('script'));
-            `
-          }}
-        /> */}
+
 
         <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>  
-        <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+        {/* <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
         <Script
         id="ad-cash-form"
         type="text/javascript"
@@ -102,19 +90,8 @@ export default function RootLayout({ children }) {
             });
           `,
         }}
-      />
-        {/*<Script
-           id="push"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(s,u,z,p){
-                s.src = u;
-                s.setAttribute('data-zone', z);
-                p.appendChild(s);
-              })(document.createElement('script'), 'https://hoomigri.com/tag.min.js', 7306336, document.body || document.documentElement);
-            `
-          }}
-        />  */}
+      /> */}
+
       </head>
       <body
         className={cx(
