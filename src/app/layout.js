@@ -79,6 +79,21 @@ export default function RootLayout({ children }) {
 
 
         <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>  
+        <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+        <Script 
+        id="in-page"
+        type="text/javascript"
+        dangerouslySetInnerHTML={{
+          __html: `
+          aclib.runInPagePush({
+            zoneId: '8273650',
+            refreshRate: 30,
+            maxAds: 2,
+          });
+            `
+          }}
+        />
+
         {/* <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
         <Script
         id="ad-cash-form"
@@ -90,7 +105,7 @@ export default function RootLayout({ children }) {
             });
           `,
         }}
-      /> */}
+      />  */}
 
       </head>
       <body
@@ -107,7 +122,7 @@ export default function RootLayout({ children }) {
             document.documentElement.classList.remove('dark')
           }`}
 
-        <Script
+        {/* <Script
         id="ad-cash"
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -117,7 +132,7 @@ export default function RootLayout({ children }) {
               });
             `,
           }}
-        />
+        /> */}
         </Script>
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
