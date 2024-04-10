@@ -6,6 +6,7 @@ import Banner_720 from '@/banners/banner_720'
 import Script from 'next/script'
 import Banner_480 from '@/banners/banner_480'
 import Banner_350 from '@/banners/banner_350'
+import Banner_160 from '@/banners/banner_160'
 
 const mdxComponents = {
     Image
@@ -38,7 +39,7 @@ const RenderMdx = ({blog}) => {
 
     '>  
         <div className='mb-10 overflow-hidden'>
-          <Banner_720 />
+          <Banner_160 />
         </div>
         <MDXContent components={mdxComponents}/>
         <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
