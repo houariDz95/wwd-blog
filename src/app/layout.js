@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
        <head>
 
 
-        {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>   */}
+        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>  
         <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
         <Script 
         id="in-page"
