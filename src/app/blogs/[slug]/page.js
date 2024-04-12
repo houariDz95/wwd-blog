@@ -96,6 +96,7 @@ export default function BlogPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      
        <Script type='text/javascript' src='//pl22931104.profitablegatecpm.com/27/7c/cc/277cccb139255375f748ddfc6b9d01de.js' />
        <article>
       <div className="mb-8 text-center relative w-full h-[70vh] bg-dark">
