@@ -75,9 +75,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <head>
+       {/* <head>
         <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
-      </head>
+      </head> */}
       <body
         className={cx(
           inter.variable,
