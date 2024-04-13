@@ -75,9 +75,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       {/* <head>
+       <head>
         <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
-      </head> */}
+        <Script
+        id="vignet"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(d,z,s){
+                s.src='https://'+d+'/401/'+z;
+                try{
+                  (document.body || document.documentElement).appendChild(s);
+                } catch(e) {}
+              })('glizauvo.net', 7344616, document.createElement('script'));
+            `,
+          }}
+        />
+        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>
+      </head> 
       <body
         className={cx(
           inter.variable,
