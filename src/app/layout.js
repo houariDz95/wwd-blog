@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
+        {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
         <Script
         id="vignet"
           dangerouslySetInnerHTML={{
@@ -89,7 +89,7 @@ export default function RootLayout({ children }) {
               })('glizauvo.net', 7344616, document.createElement('script'));
             `,
           }}
-        /> 
+        />  */}
         {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script> */}
       </head> 
       <body
