@@ -76,8 +76,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-      {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
-        <Script
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
+        {/*<Script
         id="vignet"
           dangerouslySetInnerHTML={{
             __html: `
@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />   */}
-       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>  */}
+       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>  
       </head> 
       <body
         className={cx(
