@@ -89,7 +89,15 @@ export default function RootLayout({ children }) {
               })('glizauvo.net', 7344616, document.createElement('script'));
             `,
           }}
-        />  
+        />
+        <Script 
+          id="push"
+            dangerouslySetInnerHTML={{
+              _html: `
+              (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vooculok.com',7169476,document.createElement('script'))
+              `
+            }}
+        />
       {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>   */}
       </head> 
       <body
