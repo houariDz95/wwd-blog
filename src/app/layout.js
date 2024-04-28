@@ -94,7 +94,11 @@ export default function RootLayout({ children }) {
           id="push"
             dangerouslySetInnerHTML={{
               _html: `
-              (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vooculok.com',7169476,document.createElement('script'))
+              (function(d,z,s)
+              {s.src='https://'+d+'/400/'+z;
+              try{(document.body||document.documentElement).appendChild(s)
+              }catch(e){}
+              })('vooculok.com', 7169476, document.createElement('script'))
               `
             }}
         />
