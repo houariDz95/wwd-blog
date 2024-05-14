@@ -109,6 +109,43 @@ export default function RootLayout({ children }) {
         </Script>
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
+         <Script
+          id='popcach_ads'
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var uid = '467853';
+              var wid = '707709';
+              var pop_tag = document.createElement('script');
+              pop_tag.src = '//cdn.popcash.net/show.js';
+              document.body.appendChild(pop_tag);
+              pop_tag.onerror = function() {
+                pop_tag = document.createElement('script');
+                pop_tag.src = '//cdn2.popcash.net/show.js';
+                document.body.appendChild(pop_tag);
+              };
+            `,
+          }}
+        /> 
+        <Script
+        id='thunder'
+        type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var uid = '467853';
+              var wid = '707709';
+              var pop_fback = 'up';
+              var pop_tag = document.createElement('script');
+              pop_tag.src = '//cdn.popcash.net/show.js';
+              document.body.appendChild(pop_tag);
+              pop_tag.onerror = function () {
+                pop_tag = document.createElement('script');
+                pop_tag.src = '//cdn2.popcash.net/show.js';
+                document.body.appendChild(pop_tag);
+              };
+            `,
+          }}
+        />
         <Header />
         {children}
         <Footer />
