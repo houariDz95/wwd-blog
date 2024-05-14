@@ -68,10 +68,10 @@ export const metadata = {
     images: [siteMetadata.socialBanner],
   },
   other: {
-    "monetag" : "7f9b6c527f95819c68abced3d6574029"
+    "monetag" : "7f9b6c527f95819c68abced3d6574029",
+    "ppck-ver": "bc1c404439495cebfcf295341e5f763e"
   }
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
