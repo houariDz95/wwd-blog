@@ -124,7 +124,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         /> 
-        <Script 
+        {/* <Script 
         id="push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -139,7 +139,7 @@ export default function RootLayout({ children }) {
               })({})
             `,
           }}
-        /> 
+        />  */}
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
