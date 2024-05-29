@@ -108,6 +108,38 @@ export default function RootLayout({ children }) {
           }`}
 
         </Script>
+        <Script 
+        id="banner"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(vpftb){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = vpftb || {};
+              s.src = "\/\/palecount.com\/b.X-VcsVdwGRlJ0lY\/WPdXiDYEWN5uufZHXxIp\/seMm_9vujZSU\/l\/k\/P\/TrUBzuNCjkgbyKOSD\/AXtqN\/TvMI2SO_DkIO4VMlQn";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+              })({})
+            `,
+          }}
+        /> 
+        <Script 
+        id="push"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(osn){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = osn || {};
+              s.src = "\/\/palecount.com\/a.Wk5xwhY\/WVdSlBQV2Z9GkNZ\/TS9a6fbq2X5\/lmSjWqQm9CNGTVMd2GOBDpIP5bMbCG0S1-MAzXY\/4aMojlk-xp";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+              })({})
+            `,
+          }}
+        /> 
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
@@ -119,3 +151,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
