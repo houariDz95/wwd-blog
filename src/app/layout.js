@@ -69,7 +69,8 @@ export const metadata = {
   },
   other: {
     "monetag" : "7f9b6c527f95819c68abced3d6574029",
-    "ppck-ver": "bc1c404439495cebfcf295341e5f763e"
+    "ppck-ver": "bc1c404439495cebfcf295341e5f763e",
+    "e032d971833419d42de1c79a09cd09e5954f45e4" : "e032d971833419d42de1c79a09cd09e5954f45e4" 
   }
 };
 export default function RootLayout({ children }) {
