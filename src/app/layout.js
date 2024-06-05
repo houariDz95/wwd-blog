@@ -128,12 +128,12 @@ export default function RootLayout({ children }) {
         id="push"
           dangerouslySetInnerHTML={{
             __html: `
-            (function(gph){
+            (function(epya){
               var d = document,
                   s = d.createElement('script'),
                   l = d.scripts[d.scripts.length - 1];
-              s.settings = gph || {};
-              s.src = "\/\/palecount.com\/b.X_VQsad\/G\/l\/0cY\/WBcw\/Pe\/mx9IuHZtUrlmk\/POTfUHzbOGDVAu0nMPjmYkt\/NATYMU4UMjD\/Q\/ycN\/wX";
+              s.settings = epya || {};
+              s.src = "\/\/palecount.com\/bSX\/Vbs.dqGmlT0mYoWacF\/GeKmd9KuDZmUqlgkhPdTAUhz-OlD\/Aq0\/Mgz\/YRt\/NQTOM-4qMGDjQlzbNywg";
               s.async = true;
               l.parentNode.insertBefore(s, l);
               })({})
