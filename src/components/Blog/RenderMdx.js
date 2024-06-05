@@ -42,10 +42,10 @@ const RenderMdx = ({blog}) => {
           <Banner_720 />
         </div>
         <MDXContent components={mdxComponents}/>
-    {/*<div>
+    <div>
           <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
           <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
-  </div>*/}
+  </div>
     </div>
   )
 }

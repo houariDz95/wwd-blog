@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-    <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>
+    {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script>*/}
        <Script 
         id="vignet"
           dangerouslySetInnerHTML={{
@@ -124,22 +124,22 @@ export default function RootLayout({ children }) {
             `,
           }}
         /> 
-        {/* <Script 
+       <Script 
         id="push"
           dangerouslySetInnerHTML={{
             __html: `
-            (function(osn){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = osn || {};
-              s.src = "\/\/palecount.com\/a.Wk5xwhY\/WVdSlBQV2Z9GkNZ\/TS9a6fbq2X5\/lmSjWqQm9CNGTVMd2GOBDpIP5bMbCG0S1-MAzXY\/4aMojlk-xp";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-              })({})
+           (function(vdhds){
+            var d = document,
+                s = d.createElement('script'),
+                l = d.scripts[d.scripts.length - 1];
+            s.settings = vdhds || {};
+            s.src = "\/\/palecount.com\/bdXPV.sndyGDlk0nYbWvdeiRYwWK5PuTZ\/XkIJ\/heem\/9Ru_ZZUelhkaPdTLUjzSOrDjAU0iMXT\/YFtiNqTOMO4\/MbD\/QVxwN\/wx";
+            s.async = true;
+            l.parentNode.insertBefore(s, l);
+            })({})
             `,
           }}
-        />  */}
+        />  
         <Script async="async" data-cfasync="false" src="//pl21991331.toprevenuegate.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <script type='text/javascript' src='//pl22341088.profitablegatecpm.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
