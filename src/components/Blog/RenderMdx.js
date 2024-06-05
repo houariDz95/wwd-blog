@@ -38,9 +38,9 @@ const RenderMdx = ({blog}) => {
 
 
     '>  
-        <div className='mb-10 overflow-hidden'>
+       {/* <div className='mb-10 overflow-hidden'>
           <Banner_720 />
-        </div>
+  </div> */}
         <MDXContent components={mdxComponents}/>
     {/*<div>
           <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
