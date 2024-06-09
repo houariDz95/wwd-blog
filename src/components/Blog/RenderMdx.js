@@ -7,7 +7,8 @@ import Script from 'next/script'
 import Banner_480 from '@/banners/banner_480'
 import Banner_350 from '@/banners/banner_350'
 import Banner_160 from '@/banners/banner_160'
-
+import Link from 'next/link'
+import { IoMdCloudDownload } from "react-icons/io";
 const mdxComponents = {
     Image
 }
@@ -39,12 +40,16 @@ const RenderMdx = ({blog}) => {
 
     '>  
        <div className='mb-10 overflow-hidden'>
-          <Banner_720 />
+          <Banner_480 />
   </div> 
         <MDXContent components={mdxComponents}/>
-    <div>
-        <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
-        <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
+    <div className='w-max px-4 py-2 bg-green-500 text-white text-xl rounded-md'>
+        {/*<Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
+        <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>*/}
+        <Link href="https://www.highcpmgate.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a" className='flex flex-col items-center justify-center gap-2'>
+          شارك واربح 1000$
+          <IoMdCloudDownload size={28} />
+        </Link>
     </div>
     </div>
   )
