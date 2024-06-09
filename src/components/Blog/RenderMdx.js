@@ -43,14 +43,12 @@ const RenderMdx = ({blog}) => {
           <Banner_480 />
   </div> 
         <MDXContent components={mdxComponents}/>
-    <div className='w-max px-4 py-2 bg-green-500 text-white text-xl rounded-md'>
+    <button className='px-4 py-2 w-full bg-green-500 text-white rounded-md flex flex-col items-center justify-center gap-3'>
         {/*<Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>*/}
-        <Link href="https://www.highcpmgate.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a" className='flex flex-col items-center justify-center gap-2'>
-          شارك واربح 1000$
-          <IoMdCloudDownload size={28} />
-        </Link>
-    </div>
+          <span className='text-xl font-semibold tracking-wide'>شارك واربح  1000$</span>
+          <IoMdCloudDownload size={30} />
+    </button>
     </div>
   )
 }
