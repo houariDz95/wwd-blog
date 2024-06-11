@@ -48,7 +48,7 @@ const RenderMdx = ({blog}) => {
         <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
     <button 
       onClick={() => router.push("https://www.highcpmgate.com/fc312mr9?key=52b71d4fcaa9fbe52ce02a852df7f7d9")}
-    className='px-4 mt-6 py-2 w-max bg-green-500 text-white rounded-md flex flex-col items-center justify-center gap-3'>
+    className='px-4 mt-6 py-2 w-full bg-green-500 text-white rounded-md flex flex-col items-center justify-center gap-3'>
           <span className='text-xl font-semibold tracking-wide'>شارك واربح  1000$</span>
           <IoMdCloudDownload size={30} />
     </button>
