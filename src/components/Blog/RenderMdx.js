@@ -10,6 +10,7 @@ import Banner_160 from '@/banners/banner_160'
 import Link from 'next/link'
 import { IoMdCloudDownload } from "react-icons/io";
 import { useRouter } from 'next/navigation'
+import Banner_130 from '@/banners/banner_130'
 const mdxComponents = {
     Image
 }
@@ -41,7 +42,7 @@ const RenderMdx = ({blog}) => {
 
     '>  
        <div className='mb-10 overflow-hidden'>
-          <Banner_350 />
+          <Banner_130 />
   </div> 
         <MDXContent components={mdxComponents}/>
      <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
