@@ -42,11 +42,11 @@ const RenderMdx = ({blog}) => {
 
     '>  
        <div className='mb-10 overflow-hidden'>
-          <Banner_480 />
+          <Banner_720 />
   </div> 
         <MDXContent components={mdxComponents}/>
-     <Script async="async" data-cfasync="false" src="//pl21991331.profitablegatecpm.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
-    <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
+        <Script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
+        <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
     <button 
       onClick={() => router.push("https://www.highcpmgate.com/fc312mr9?key=52b71d4fcaa9fbe52ce02a852df7f7d9")}
     className='px-4 mt-6 py-2 w-full bg-green-500 text-white rounded-md flex flex-col items-center justify-center gap-3'>
