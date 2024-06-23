@@ -78,7 +78,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <head>
       {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script> */}
-      <Script 
+      <script src="https://propu.sh/act/files/tag.min.js?z=7645746" data-cfasync="false" async></script>
+      {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -90,7 +91,7 @@ export default function RootLayout({ children }) {
               })('whouseem.com',7325933,document.createElement('script'))
             `,
           }}
-        />  
+        />*/}  
        <Script 
         id="vignet"
           dangerouslySetInnerHTML={{
