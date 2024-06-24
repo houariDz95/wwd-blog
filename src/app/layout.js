@@ -77,10 +77,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7306424"></script> 
-      <script src="https://propu.sh/act/files/tag.min.js?z=7645746" data-cfasync="false" async></script>
       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>
-      <Script 
+      {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
             __html: `
