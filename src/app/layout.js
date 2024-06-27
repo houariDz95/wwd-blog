@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>
+      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>*/}
       {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
@@ -137,7 +137,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         /> 
-       {/*<Script 
+       <Script 
         id="push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -152,7 +152,23 @@ export default function RootLayout({ children }) {
               })({})
             `,
           }}
-        /> */} 
+        /> 
+        <Script 
+        id="multi"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(zgdv){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = zgdv || {};
+              s.src = "\/\/palecount.com\/b\/XRV.swdvG\/lo0DYNWVdciwY\/W\/5PusZCX\/IR\/JebmC9\/uEZ\/UylZk\/PVTJUPzEOMDWAH0lMLTdYktPNYTlMB4yMuD_QSxNNNwQ";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+              })({})
+            `,
+          }}
+        /> 
         <script type='text/javascript' src='//affordspoonsgray.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
         {children}

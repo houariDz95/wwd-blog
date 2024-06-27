@@ -11,6 +11,7 @@ import Link from 'next/link'
 import { IoMdCloudDownload } from "react-icons/io";
 import { useRouter } from 'next/navigation'
 import Banner_130 from '@/banners/banner_130'
+import VideoPlayer from '../VideoPlayer'
 const mdxComponents = {
     Image
 }
@@ -47,12 +48,14 @@ const RenderMdx = ({blog}) => {
         <MDXContent components={mdxComponents}/>
         <Script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
-    <button 
+    {/*<button 
       onClick={() => router.push("https://affordspoonsgray.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a")}
     className='px-4 mt-6 py-2 w-full bg-green-500 text-white rounded-md flex flex-col items-center justify-center gap-3'>
           <span className='text-xl font-semibold tracking-wide'>شارك واربح  1000$</span>
           <IoMdCloudDownload size={30} />
-    </button>
+    </button>*/
+    }
+    <VideoPlayer />
     </div>
   )
 }
