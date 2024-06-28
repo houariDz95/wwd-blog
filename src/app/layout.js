@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>*/}
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>
       {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
@@ -121,51 +121,40 @@ export default function RootLayout({ children }) {
           }`}
 
         </Script>
-        <Script 
-        id="banner"
+        <Script
+          id='popcach_ads'
+          type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `
-            (function(vpftb){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = vpftb || {};
-              s.src = "\/\/palecount.com\/b.X-VcsVdwGRlJ0lY\/WPdXiDYEWN5uufZHXxIp\/seMm_9vujZSU\/l\/k\/P\/TrUBzuNCjkgbyKOSD\/AXtqN\/TvMI2SO_DkIO4VMlQn";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-              })({})
+              var uid = '467853';
+              var wid = '720250';
+              var pop_tag = document.createElement('script');
+              pop_tag.src = '//cdn.popcash.net/show.js';
+              document.body.appendChild(pop_tag);
+              pop_tag.onerror = function() {
+                pop_tag = document.createElement('script');
+                pop_tag.src = '//cdn2.popcash.net/show.js';
+                document.body.appendChild(pop_tag);
+              };
             `,
           }}
-        /> 
-       <Script 
-        id="push"
+        />
+        <Script
+        id='thunder'
+        type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `
-            (function(epya){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = epya || {};
-              s.src = "\/\/palecount.com\/bSX\/Vbs.dqGmlT0mYoWacF\/GeKmd9KuDZmUqlgkhPdTAUhz-OlD\/Aq0\/Mgz\/YRt\/NQTOM-4qMGDjQlzbNywg";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-              })({})
-            `,
-          }}
-        /> 
-        <Script 
-        id="multi"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(zgdv){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = zgdv || {};
-              s.src = "\/\/palecount.com\/b\/XRV.swdvG\/lo0DYNWVdciwY\/W\/5PusZCX\/IR\/JebmC9\/uEZ\/UylZk\/PVTJUPzEOMDWAH0lMLTdYktPNYTlMB4yMuD_QSxNNNwQ";
-              s.async = true;
-              l.parentNode.insertBefore(s, l);
-              })({})
+              var uid = '467853';
+              var wid = '720250';
+              var pop_fback = 'up';
+              var pop_tag = document.createElement('script');
+              pop_tag.src = '//cdn.popcash.net/show.js';
+              document.body.appendChild(pop_tag);
+              pop_tag.onerror = function () {
+                pop_tag = document.createElement('script');
+                pop_tag.src = '//cdn2.popcash.net/show.js';
+                document.body.appendChild(pop_tag);
+              };
             `,
           }}
         /> 
@@ -181,3 +170,20 @@ export default function RootLayout({ children }) {
 }
 
 
+/*
+        <Script 
+        id="banner"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(vpftb){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = vpftb || {};
+              s.src = "\/\/palecount.com\/b.X-VcsVdwGRlJ0lY\/WPdXiDYEWN5uufZHXxIp\/seMm_9vujZSU\/l\/k\/P\/TrUBzuNCjkgbyKOSD\/AXtqN\/TvMI2SO_DkIO4VMlQn";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+              })({})
+            `,
+          }}
+        /> */
