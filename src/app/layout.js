@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>*/}
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>
       {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
@@ -121,7 +121,7 @@ export default function RootLayout({ children }) {
           }`}
 
         </Script>
-        <Script
+       {/* <Script
           id='popcach_ads'
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -157,7 +157,7 @@ export default function RootLayout({ children }) {
               };
             `,
           }}
-        />  
+        />  */}
         <script type='text/javascript' src='//affordspoonsgray.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
         {children}
