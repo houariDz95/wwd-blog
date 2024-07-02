@@ -78,6 +78,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <head>
       {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>*/}
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>
       {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
@@ -121,7 +122,7 @@ export default function RootLayout({ children }) {
           }`}
 
         </Script>
-       <Script
+       {/*<Script
           id='popcach_ads'
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -139,7 +140,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        {/*<Script
+        <Script
         id='thunder'
         type="text/javascript"
           dangerouslySetInnerHTML={{
