@@ -77,8 +77,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script>
-      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>*/}
+      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script> */}
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>
       {/*<Script 
         id="in-push"
           dangerouslySetInnerHTML={{
@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />*/}  
-       <Script 
+       {/*<Script 
         id="vignet"
           dangerouslySetInnerHTML={{
             __html: `
@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
               })('glizauvo.net', 7344616, document.createElement('script'));
             `,
           }}
-        />  
+        /> */} 
       {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>   */}
       </head> 
       <body
