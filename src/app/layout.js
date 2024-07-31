@@ -77,8 +77,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-     {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script> */}
-      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script> 
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script> 
+      {/*<script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script> */}
       {/* <Script 
         id="in-push"
           dangerouslySetInnerHTML={{
@@ -122,6 +122,22 @@ export default function RootLayout({ children }) {
           }`}
 
         </Script>
+        <Script 
+        id="banner"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(vpftb){
+              var d = document,
+                  s = d.createElement('script'),
+                  l = d.scripts[d.scripts.length - 1];
+              s.settings = vpftb || {};
+              s.src = "\/\/palecount.com\/b.X-VcsVdwGRlJ0lY\/WPdXiDYEWN5uufZHXxIp\/seMm_9vujZSU\/l\/k\/P\/TrUBzuNCjkgbyKOSD\/AXtqN\/TvMI2SO_DkIO4VMlQn";
+              s.async = true;
+              l.parentNode.insertBefore(s, l);
+              })({})
+            `,
+          }}
+        /> 
        {/*<Script
           id='popcach_ads'
           type="text/javascript"
