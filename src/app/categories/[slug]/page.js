@@ -1,4 +1,5 @@
 import { allBlogs } from "@/.contentlayer/generated";
+import Banner_350 from "@/banners/banner_350";
 import Banner_720 from "@/banners/banner_720";
 import BlogLayoutThree from "@/src/components/Blog/BlogLayoutThree";
 import Categories from "@/src/components/Blog/Categories";
@@ -68,7 +69,7 @@ const CategoryPage = ({ params }) => {
         ))}
       </div>
       <div className="lg:min-w-[752px] w-full mx-auto  flex items-center justify-center mt-6">
-        <Banner_720 />
+        <Banner_350 />
       </div>
     </article>
   );
