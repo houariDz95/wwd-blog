@@ -1,4 +1,3 @@
-import Banner_350 from "@/banners/banner_350";
 import BlogDetails from "@/src/components/Blog/BlogDetails";
 import RenderMdx from "@/src/components/Blog/RenderMdx";
 import Tag from "@/src/components/Elements/Tag";

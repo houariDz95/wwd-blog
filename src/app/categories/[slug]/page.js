@@ -1,10 +1,8 @@
 import { allBlogs } from "@/.contentlayer/generated";
-import Banner_350 from "@/banners/banner_350";
 import Banner_720 from "@/banners/banner_720";
 import BlogLayoutThree from "@/src/components/Blog/BlogLayoutThree";
 import Categories from "@/src/components/Blog/Categories";
 import GithubSlugger, { slug } from "github-slugger";
-import Script from "next/script";
 
 const slugger = new GithubSlugger();
 
@@ -70,9 +68,7 @@ const CategoryPage = ({ params }) => {
         ))}
       </div>
       <div className="lg:min-w-[752px] w-full mx-auto  flex items-center justify-center mt-6">
-        <a className="hidden lg:block" target="_blank" href="https://shareasale.com/r.cfm?b=1863281&amp;u=4040299&amp;m=35635&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/35635/Untitleddesign-High-Quality2_01.jpg" border="0" alt="Increase metabolism" /></a>
-        <Banner_350 />
-        <a className="hidden lg:block" target="_blank" href="https://shareasale.com/r.cfm?b=2467771&amp;u=4040299&amp;m=35635&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/35635/November-2023-OfficialHCGDietPlanGET.png" border="0" alt="Black Friday Special Sale" /></a>
+        <Banner_720 />
       </div>
     </article>
   );
