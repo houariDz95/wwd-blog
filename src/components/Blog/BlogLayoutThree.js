@@ -9,8 +9,6 @@ const BlogLayoutThree = ({ blog }) => {
       <Link href={blog.url} className="h-full rounded-xl overflow-hidden">
         <Image
           src={blog.image.filePath.replace("../public", "")}
-          placeholder="blur"
-          blurDataURL={blog.image.blurhashDataUrl}
           alt={blog.title}
           width={blog.image.width}
           height={blog.image.height}
