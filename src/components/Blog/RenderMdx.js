@@ -4,9 +4,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks'
 import Image from 'next/image'
 import Banner_720 from '@/banners/banner_720'
 import Script from 'next/script'
-import Banner_480 from '@/banners/banner_480'
-import Banner_350 from '@/banners/banner_350'
-import Banner_160 from '@/banners/banner_160'
+
 import Link from 'next/link'
 import { IoMdCloudDownload } from "react-icons/io";
 import { useRouter } from 'next/navigation'
