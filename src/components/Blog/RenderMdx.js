@@ -15,8 +15,8 @@ const mdxComponents = {
 }
 
 const RenderMdx = ({blog}) => {
-
-    const MDXContent = useMDXComponent(blog.body.code)
+    console.log(blog.body)
+    const MDXContent = useMDXComponent(blog?.body?.code)
     const router = useRouter()
   return (
     <div className='col-span-12  lg:col-span-8 font-in prose sm:prose-base md:prose-lg max-w-max
@@ -42,7 +42,7 @@ const RenderMdx = ({blog}) => {
     '>  
        <div className='mb-10 overflow-hidden'>
           <Banner_720 />
-  </div> 
+    </div> 
         <MDXContent components={mdxComponents}/>
         <Script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
         <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
