@@ -15,7 +15,6 @@ const mdxComponents = {
 }
 
 const RenderMdx = ({blog}) => {
-    console.log(blog.body)
     const MDXContent = useMDXComponent(blog?.body?.code)
     const router = useRouter()
   return (
@@ -33,7 +32,7 @@ const RenderMdx = ({blog}) => {
     dark:prose-blockquote:border-accentDark
     dark:prose-blockquote:bg-accentDark/20
     dark:prose-li:marker:text-accentDark
-
+ 
     first-letter:text-3xl
     sm:first-letter:text-5xl
     
@@ -50,7 +49,7 @@ const RenderMdx = ({blog}) => {
       onClick={() => router.push("https://affordspoonsgray.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a")}
     className='px-4 mt-6 py-2 w-full bg-green-500 text-white rounded-md flex flex-col items-center justify-center gap-3'>
           <span className='text-xl font-semibold tracking-wide'>شارك واربح  1000$</span>
-          <IoMdCloudDownload size={30} />
+          <IoMdCloudDownload size={30} /> 
     </button>
     </div>
   )
