@@ -78,8 +78,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <head>
       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script> */}
-      {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>   */}
-      <Script 
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>   
+      {/* <Script 
         id="in-push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
               })('whouseem.com',7325933,document.createElement('script'))
             `,
           }}
-        />
+        /> */}
        <Script 
         id="vignet"
           dangerouslySetInnerHTML={{
