@@ -175,7 +175,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />   */}
-        {/* <script type='text/javascript' src='//affordspoonsgray.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script> */}
+        <script type='text/javascript' src='//affordspoonsgray.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
         {children}
         <Footer />
