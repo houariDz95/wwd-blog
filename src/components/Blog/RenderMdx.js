@@ -39,7 +39,7 @@ const RenderMdx = ({blog}) => {
         </div> 
         <MDXContent components={mdxComponents}/>
 
-      <Link href="https://affordspoonsgray.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a">
+      <Link href="https://affordspoonsgray.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a" className="max-w-[320px] h-80">
         <Image
           src="/ads-1.jpg"
           width={718}
