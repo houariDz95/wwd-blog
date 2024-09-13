@@ -36,7 +36,7 @@ const RenderMdx = ({blog}) => {
     sm:first-letter:text-5xl
     '>  
        <div className='mb-10 overflow-hidden'>
-          <Banner_720 />
+          <Banner_480 />
         </div> 
         <MDXContent components={mdxComponents}/>
 
