@@ -37,6 +37,28 @@ const RenderMdx = ({blog}) => {
     '>  
        <div className='mb-10 overflow-hidden'>
           <Banner_480 />
+          <Script
+            id="traffic-ad-bar"
+            type="text/javascript"
+            strategy="afterInteractive"
+          >
+            {`
+              tc_ad_client = "HouariDz95";
+              tc_ad_width = "728";
+              tc_ad_height = "90";
+              tc_color_border = "#ffffff";
+              tc_color_title = "#AC0101";
+              tc_color_background = "#f8f8f8";
+              tc_color_text = "#000000";
+              tc_color_url = "#7c8e06";
+            `}
+          </Script>
+
+          {/* Load the external script */}
+          <Script
+            src="//trafficadbar.com/bar/show.js"
+            strategy="afterInteractive"
+      />
         </div> 
         <MDXContent components={mdxComponents}/>
 
