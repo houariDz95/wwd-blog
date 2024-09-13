@@ -41,9 +41,9 @@ const RenderMdx = ({blog}) => {
             id="traffic-ad-bar"
             type="text/javascript"
             strategy="afterInteractive"
-          >
-            {`
-              tc_ad_client = "HouariDz95";
+            dangerouslySetInnerHTML={{
+              __html: `
+               tc_ad_client = "HouariDz95";
               tc_ad_width = "728";
               tc_ad_height = "90";
               tc_color_border = "#ffffff";
@@ -51,8 +51,9 @@ const RenderMdx = ({blog}) => {
               tc_color_background = "#f8f8f8";
               tc_color_text = "#000000";
               tc_color_url = "#7c8e06";
-            `}
-          </Script>
+              `
+            }}
+          />
 
           {/* Load the external script */}
           <Script
