@@ -37,7 +37,21 @@ const RenderMdx = ({blog}) => {
     '>  
        <div className='mb-10 overflow-hidden'>
           <Banner_480 />
-          <Script
+        </div> 
+        <MDXContent components={mdxComponents}/>
+
+      <Link href="https://affordspoonsgray.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a" className="max-w-[320px]">
+        <Image
+          src="/car.jpg"
+          width={320}
+          height={320}
+          alt="Image"
+          className="object-contain w-full h-80"
+        />
+    </Link>
+            <Script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
+        <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
+        <Script
             id="traffic-ad-bar"
             type="text/javascript"
             strategy="afterInteractive"
@@ -60,20 +74,6 @@ const RenderMdx = ({blog}) => {
             src="//trafficadbar.com/bar/show.js"
             strategy="afterInteractive"
       />
-        </div> 
-        <MDXContent components={mdxComponents}/>
-
-      <Link href="https://affordspoonsgray.com/j75ssn35?key=55f12044e7cbff305d4db14598c53a3a" className="max-w-[320px]">
-        <Image
-          src="/car.jpg"
-          width={320}
-          height={320}
-          alt="Image"
-          className="object-contain w-full h-80"
-        />
-    </Link>
-            <Script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js" />
-        <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
     </div>
   )
 }
