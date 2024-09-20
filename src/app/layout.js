@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <head>
       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script> */}
-      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>   
+      {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>    */}
        {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script>  */}
       {/* <Script 
         id="in-push"
@@ -115,14 +115,6 @@ export default function RootLayout({ children }) {
           "font-mr bg-light dark:bg-dark"
         )}
       >
-        <Script id="theme-switcher" strategy="beforeInteractive">
-          {`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark')
-          } else {
-            document.documentElement.classList.remove('dark')
-          }`}
-
-        </Script>
         {/* <Script 
         id="banner"
           dangerouslySetInnerHTML={{
