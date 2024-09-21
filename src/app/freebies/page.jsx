@@ -1,4 +1,5 @@
 
+import Banner_480 from "@/banners/banner_480";
 import Banner_720 from "@/banners/banner_720";
 import React from "react";
 
@@ -18,7 +19,7 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-20 px-4">
-        <Banner_720 />
+        <Banner_480 />
         <h2 className="text-5xl font-extrabold mb-4">Unlock $500 in Exclusive Freebies!</h2>
         <p className="text-xl mb-8">Access premium resources, guides, and tools, valued at $500 — absolutely free for USA residents only!</p>
         <button className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-full text-xl">
