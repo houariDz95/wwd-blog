@@ -19,7 +19,7 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-20 px-4">
-        <div className="w-full overflow-hidden">
+        <div className="w-full overflow-hidden flex items-center justify-center">
           <Banner_480 />
         </div>
         <h2 className="text-5xl font-extrabold mb-4">Unlock $500 in Exclusive Freebies!</h2>
