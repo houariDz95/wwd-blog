@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen absolute top-0 left-0 max-w-screen w-full bg-pink-50 flex flex-col items-center justify-center py-10">
+    <div className="min-h-screen absolute top-0 z-20 left-0 max-w-screen w-full bg-pink-50 flex flex-col items-center justify-center py-10">
       <header className="text-center space-y-5">
         <h1 className="text-5xl font-extrabold text-pink-600">
           Meet Hot Girls Near You
