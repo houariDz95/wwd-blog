@@ -4,7 +4,7 @@ const LandingPage = () => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Replace with your form submission logic
     // e.g., send email to your API or service
