@@ -13,7 +13,7 @@ const LandingPage = () => {
     
     setSubmitted(true);
     setTimeout(() => {
-      router.push('https://unequaledchair.com/b.3RVE0oP/3mpJv/bamfVXJ_ZJDD0/1CNeT/gQyZOCDsE/4/LuTzUB1-OgDCI/4bMhTHkE')
+      router.push('https://affordspoonsgray.com/fi4jipsn2?key=82850efc8000cbd9c39de31c1afcdba5')
     }, 500)
   };
 
