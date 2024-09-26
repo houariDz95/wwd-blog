@@ -34,6 +34,9 @@ const pages = () => {
                 place — and it&#39;s coming from Google Discover.
                 </p>
 
+                    <div className='w-full flex items-center justify-center my-2'>
+                        <Banner_350 />
+                    </div>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Social Traffic is Down — But Discover is Rising</h2>
 
                 <p className="text-lg text-gray-700 mb-4">
