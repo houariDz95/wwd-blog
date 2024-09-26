@@ -11,7 +11,7 @@ const BlogPage = () => {
   return (
     <>
         <script src="https://alwingulla.com/88/tag.min.js" data-zone="103993" async data-cfasync="false"></script>
-        <div className="min-h-screen bg-gray-100 p-6">
+        <div style={{direction: "ltr"}} className="min-h-screen bg-gray-100 p-6">
             <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
                 <h1 className="text-4xl font-bold text-gray-900 mb-6">
                 How Google Discover is Becoming a Traffic Powerhouse for U.S. News Publishers
