@@ -2,6 +2,11 @@ import Banner_350 from '@/banners/banner_350'
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+    title: "How Google Discover is Becoming a Traffic Powerhouse for U.S. News Publishers",
+    descreption: "How Google Discover is Becoming a Traffic Powerhouse for U.S. News Publishers"
+}
+
 const pages = () => {
   return (
     <html>
@@ -20,7 +25,7 @@ const pages = () => {
 
                 <div className="relative w-full h-64 mb-6">
                 <Image
-                    src="https://source.unsplash.com/random/800x400"
+                    src="/blog.jpg"
                     alt="Declining Social Traffic"
                     layout="fill"
                     objectFit="cover"
@@ -54,7 +59,7 @@ const pages = () => {
 
                 <div className="relative w-full h-64 mb-6">
                 <Image
-                    src="https://source.unsplash.com/random/800x400"
+                    src="/blog1.jpg"
                     alt="Google Discover Success"
                     layout="fill"
                     objectFit="cover"
@@ -87,7 +92,7 @@ const pages = () => {
 
                 <div className="relative w-full h-64 mb-6">
                 <Image
-                    src="https://source.unsplash.com/random/800x400"
+                    src="/blog1.jpg"
                     alt="Traffic Trends"
                     layout="fill"
                     objectFit="cover"
