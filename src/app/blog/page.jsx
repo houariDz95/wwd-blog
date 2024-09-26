@@ -7,13 +7,10 @@ export const metadata = {
     descreption: "How Google Discover is Becoming a Traffic Powerhouse for U.S. News Publishers"
 }
 
-const pages = () => {
+const BlogPage = () => {
   return (
-    <html>
-        <head>
-            <script src="https://alwingulla.com/88/tag.min.js" data-zone="103993" async data-cfasync="false"></script>
-        </head>
-        <body>
+    <>
+        <script src="https://alwingulla.com/88/tag.min.js" data-zone="103993" async data-cfasync="false"></script>
         <div className="min-h-screen bg-gray-100 p-6">
             <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
                 <h1 className="text-4xl font-bold text-gray-900 mb-6">
@@ -77,7 +74,7 @@ const pages = () => {
 
                 <p className="text-lg text-gray-700 mb-4">
                 Unlike Google Search, Discover doesn&#39;t require users to actively search for information. Instead, it curates
-                content that aligns with a user’s interests based on their browsing behavior. And while it&#39;s still somewhat of
+                content that aligns with a user&#39;s interests based on their browsing behavior. And while it&#39;s still somewhat of
                 a mystery how Discover selects which articles to show, publishers are starting to see it as an important
                 referral source for traffic.
                 </p>
@@ -149,9 +146,8 @@ const pages = () => {
                 </p>
             </div>
             </div>
-        </body>
-    </html>
+        </>
   )
 }
 
-export default pages
+export default BlogPage
