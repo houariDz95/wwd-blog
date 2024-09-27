@@ -1,4 +1,5 @@
 import Banner_350 from '@/banners/banner_350'
+import Banner_720 from '@/banners/banner_720'
 import Image from 'next/image'
 import React from 'react'
 
@@ -36,8 +37,8 @@ const BlogPage = () => {
                 place — and it&#39;s coming from Google Discover.
                 </p>
 
-                    <div className='w-full flex items-center justify-center my-2'>
-                        <Banner_350 />
+                    <div className='w-full flex items-center justify-center my-2 overflow-hidden'>
+                        <Banner_720 />
                     </div>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Social Traffic is Down — But Discover is Rising</h2>
 
