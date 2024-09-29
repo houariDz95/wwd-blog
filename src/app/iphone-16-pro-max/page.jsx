@@ -1,5 +1,10 @@
 import Image from 'next/image';
 
+export const metadata = {
+  title: "Win a Free iPhone 16 Pro Max | Exclusive Offer for Canada, UK & US",
+  description: "Claim your chance to win a free iPhone 16 Pro Max. Available only for residents of Canada, the United Kingdom, and the United States. Act now, mobile devices only!",
+}
+
 export default function CPALandingPage() {
   return (
     <div style={{direction: "ltr"}} className="bg-slate-100 min-h-screen absolute top-0 left-0 max-w-screen w-full">
