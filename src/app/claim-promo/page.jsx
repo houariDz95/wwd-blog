@@ -1,6 +1,4 @@
 
-import React, { useState } from 'react';
-import { useRouter } from 'next/router';
 
 export const metadata = {
   title: "Claim 4,000 Advertising Credits | My Click Central Promo Code",
@@ -13,12 +11,8 @@ export const metadata = {
 }
 
 const LandingPage = () => {
-  const router = useRouter();
 
-  const handleClaim = () => {
-    // Handle the claim action (e.g., redirect to promo page or trigger an API call)
-    router.push('https://affordspoonsgray.com/fi4jipsn2?key=82850efc8000cbd9c39de31c1afcdba5'); // Redirect to the actual claim page or link
-  };
+
 
   return (
     <div className="z-50 absolute top-0 left-0 max-w-screen w-full h-screen flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-300 to-orange-500 p-8">
@@ -42,10 +36,11 @@ const LandingPage = () => {
         </div>
 
         <button
-          onClick={handleClaim}
           className="bg-green-600 text-white text-2xl py-3 px-8 rounded-md hover:bg-green-700 transition-all font-semibold mt-6"
         >
-          CLICK HERE TO CLAIM NOW! 🚀
+          <a href="https://affordspoonsgray.com/fi4jipsn2?key=82850efc8000cbd9c39de31c1afcdba5">
+            CLICK HERE TO CLAIM NOW! 🚀
+          </a>
         </button>
 
         <p className="text-gray-700 text-lg mt-8">
