@@ -15,7 +15,7 @@ const LandingPage = () => {
 
 
   return (
-    <div className="z-50 absolute top-0 left-0 max-w-screen w-full h-screen flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-300 to-orange-500 p-8">
+    <div style={{direction: "ltr"}} className="z-50 absolute top-0 left-0 max-w-screen w-full h-screen flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-300 to-orange-500 p-8">
       <div className="bg-white p-10 rounded-lg shadow-lg max-w-lg w-full text-center">
         <h1 className="text-4xl font-extrabold mb-4 text-green-600">
           🎉 Congratulations!
@@ -48,7 +48,7 @@ const LandingPage = () => {
           <span className="font-bold text-red-600"> BUYERS!</span>
         </p>
         <p className="text-lg text-gray-600 mt-4">
-          You've been invited by <span className="font-bold text-blue-600">Bob Z</span>
+          You've been invited by <span className="font-bold text-blue-600">Edd Z</span>
         </p>
 
         <p className="text-lg text-gray-700 mt-8">
