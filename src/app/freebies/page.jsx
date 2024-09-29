@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function CPALandingPage() {
   return (
-    <div style={{direction: "ltr"}} className="bg-gray-100 min-h-screen absolute top-0 left-0 max-w-screen w-full">
+    <div style={{direction: "ltr"}} className="bg-slate-100 min-h-screen absolute top-0 left-0 max-w-screen w-full">
       {/* Hero Section */}
       <section className="relative flex flex-col justify-center items-center text-center bg-gradient-to-r from-black to-black text-white py-20">
         <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
@@ -84,7 +84,7 @@ export default function CPALandingPage() {
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-gray-800 py-6 text-gray-400 text-center">
+      <footer className="bg-dark py-6 text-gray-400 text-center text-white">
         <p>Terms & Conditions Apply. Offer valid only for eligible residents of Canada, UK, and US.</p>
         <p className="mt-2">© 2024 Free iPhone Campaign. All rights reserved.</p>
       </footer>
