@@ -1,105 +1,94 @@
+import Image from 'next/image';
 
-import Banner_480 from "@/banners/banner_480";
-import Banner_720 from "@/banners/banner_720";
-import React from "react";
-
-const LandingPage = () => {
+export default function CPALandingPage() {
   return (
-    <div style={{direction: "ltr"}} className="min-h-screen bg-gradient-to-r from-blue-600 to-indigo-800 text-white absolute max-w-screen w-full top-0 left-0">
-      {/* Header Section */}
-      <header className="w-full py-6 px-4 bg-opacity-90 bg-black flex justify-between items-center">
-        <h1 className="text-4xl font-bold" >Claim Your $500 Freebies!</h1>
-        <nav className="space-x-6">
-          <a href="#features" className="hover:underline">Features</a>
-          <a href="#testimonials" className="hover:underline">Testimonials</a>
-          
-          <a href="#signup" className="hover:underline">Get Started</a>
-        </nav>
-      </header>
-
+    <div style={{direction: "ltr"}} className="bg-gray-100 min-h-screen absolute top-0 left-0 max-w-screen w-full">
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-20 px-4">
-        <div className="w-full overflow-hidden flex items-center justify-center">
-          <Banner_480 />
-        </div>
-        <h2 className="text-5xl font-extrabold mb-4">Unlock $500 in Exclusive Freebies!</h2>
-        <p className="text-xl mb-8">Access premium resources, guides, and tools, valued at $500 — absolutely free for USA residents only!</p>
-        <button className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-full text-xl">
-            <a href="https://affordspoonsgray.com/fi4jipsn2?key=82850efc8000cbd9c39de31c1afcdba5">
-                Claim Your Freebies Now!
-            </a>
+      <section className="relative flex flex-col justify-center items-center text-center bg-gradient-to-r from-black to-black text-white py-20">
+        <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+        <Image
+          src="/images/iphon-16.jpg" // Replace with your actual image path
+          alt="iPhone 16 Pro Max"
+          width={500}
+          height={500}
+          className="z-20"
+        />
+        <h1 className="z-20 text-4xl md:text-6xl font-bold mt-10">
+          Win a Free iPhone 16 Pro Max!
+        </h1>
+        <p className="z-20 text-xl md:text-2xl mt-4">
+          Only for residents of Canada, the United Kingdom, and the United States.
+        </p>
+        <button className="z-20 mt-10 px-8 py-4 bg-green-500 text-white text-lg rounded-lg hover:bg-green-600 transition duration-300">
+          <a href="https://www.lnkmeup.com/view.php?id=5538006&pub=3127730">
+            Claim Your Free iPhone Now!
+          </a>
         </button>
       </section>
 
-      {/* Features Section */}
-      <section id="features" className="py-20 bg-white text-black">
-        <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-4xl font-bold mb-12 text-indigo-800">What’s Included in Your $500 Freebies</h3>
-          <div className="grid md:grid-cols-3 gap-12">
-            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
-              <h4 className="text-2xl font-bold mb-4">Exclusive Templates</h4>
-              <p className="text-lg">Professional templates for projects, resumes, and more.</p>
-            </div>
-            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
-              <h4 className="text-2xl font-bold mb-4">Step-by-Step Guides</h4>
-              <p className="text-lg">Detailed guides to help you succeed in business and personal projects.</p>
-            </div>
-            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
-              <h4 className="text-2xl font-bold mb-4">Premium Resources</h4>
-              <p className="text-lg">Top-tier resources worth $500, available only for USA residents.</p>
-            </div>
+      {/* Offer Details Section */}
+      <section className="py-12 px-6 md:px-24 text-center">
+        <h2 className="text-3xl font-semibold text-gray-800">
+          How to Claim Your Free iPhone
+        </h2>
+        <div className="mt-8 flex flex-wrap justify-center gap-8">
+          <div className="bg-white shadow-md rounded-lg p-6 w-80">
+            <h3 className="text-xl font-bold text-gray-700">Step 1</h3>
+            <p className="text-gray-600 mt-2">
+              Share this offer with your friends and family in Canada, the UK, or the US.
+            </p>
+          </div>
+          <div className="bg-white shadow-md rounded-lg p-6 w-80">
+            <h3 className="text-xl font-bold text-gray-700">Step 2</h3>
+            <p className="text-gray-600 mt-2">
+              Complete the registration and confirm your email.
+            </p>
+          </div>
+          <div className="bg-white shadow-md rounded-lg p-6 w-80">
+            <h3 className="text-xl font-bold text-gray-700">Step 3</h3>
+            <p className="text-gray-600 mt-2">
+              Wait for the draw and win your brand-new iPhone!
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 bg-indigo-700">
-        <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-4xl font-bold mb-12">What Our Users Are Saying</h3>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="p-6 bg-white text-black rounded-lg shadow-lg">
-              <p className="text-lg italic">"The $500 freebies have been incredibly valuable for my business. Thank you!"</p>
-              <p className="mt-4 font-bold">- Alex, Business Owner</p>
-            </div>
-            <div className="p-6 bg-white text-black rounded-lg shadow-lg">
-              <p className="text-lg italic">"I couldn't believe this was free! The resources are top-notch!"</p>
-              <p className="mt-4 font-bold">- Sarah, Entrepreneur</p>
-            </div>
-          </div>
-        </div>
+      {/* Eligibility Section */}
+      <section className="bg-indigo-100 py-12 px-6 md:px-24">
+        <h2 className="text-3xl font-semibold text-gray-800 text-center">
+          Eligibility Requirements
+        </h2>
+        <p className="text-center text-gray-700 mt-6">
+          This offer is only available to residents of:
+        </p>
+        <ul className="text-center mt-4 text-gray-700 space-y-2">
+          <li>🇨🇦 Canada</li>
+          <li>🇬🇧 United Kingdom</li>
+          <li>🇺🇸 United States</li>
+        </ul>
+        <p className="text-center text-gray-700 mt-6">
+          Only target these devices: <strong>Any mobile device</strong>.
+        </p>
       </section>
 
       {/* Call to Action Section */}
-      <section id="signup" className="py-20 text-center bg-yellow-500 text-black">
-        <h3 className="text-4xl font-bold mb-6">Claim Your $500 Freebies Now!</h3>
-        <p className="text-xl mb-8">Enter your email to get instant access. Offer available only for USA residents!</p>
-        <input
-          type="email"
-          className="py-3 px-6 mb-4 rounded-full focus:outline-none"
-          placeholder="Enter your email"
-        />
-        <br />
-        <button className="bg-black text-white font-bold py-4 px-8 rounded-full">
-            <a href="https://affordspoonsgray.com/fi4jipsn2?key=82850efc8000cbd9c39de31c1afcdba5">
-                Get Access
-            </a>
+      <section className="text-center py-16 bg-gradient-to-r from-black to-black text-white">
+        <h2 className="text-4xl font-bold">
+          Don’t Miss Out On Your Free iPhone 16 Pro Max!
+        </h2>
+        <button className="mt-8 px-12 py-4 bg-green-600 text-lg rounded-lg hover:bg-green-700 transition duration-300">
+          <a href="https://www.lnkmeup.com/view.php?id=5538006&pub=3127730">
+            Get Yours Now!
+          </a>
         </button>
       </section>
-      <div className="mb-4 flex items-center justify-center">
-      <script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js"></script>
-      <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
-        </div>
+
       {/* Footer Section */}
-      <footer className="py-8 text-center bg-black text-white">
-        <p>© 2024 Freebies. All rights reserved. USA Residents Only.</p>
-        <nav className="space-x-6 mt-4">
-          <a href="#features" className="hover:underline">Features</a>
-          <a href="#testimonials" className="hover:underline">Testimonials</a>
-          <a href="#signup" className="hover:underline">Get Started</a>
-        </nav>
+      <footer className="bg-gray-800 py-6 text-gray-400 text-center">
+        <p>Terms & Conditions Apply. Offer valid only for eligible residents of Canada, UK, and US.</p>
+        <p className="mt-2">© 2024 Free iPhone Campaign. All rights reserved.</p>
       </footer>
     </div>
   );
-};
+}
 
-export default LandingPage;
