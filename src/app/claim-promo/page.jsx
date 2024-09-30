@@ -1,3 +1,4 @@
+import Banner_720 from "@/banners/banner_720";
 
 
 export const metadata = {
@@ -54,6 +55,9 @@ const LandingPage = () => {
         <p className="text-lg text-gray-700 mt-8">
           Claim this gift & set up your first ads now!
         </p>
+      </div>
+      <div className="w-full flex items-center justify-center my-2">
+        <Banner_720 />
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ export default function Banner_720() {
     const banner = useRef()
 
     const atOptions = {
-		'key' : !isMobile ? '89091488e6459fcdac5d419498f68ee0' : 'a2cae1a172fe887aa3f28a123a9e4e17',
+		'key' : 'a2cae1a172fe887aa3f28a123a9e4e17', //!isMobile ? '89091488e6459fcdac5d419498f68ee0' : 'a2cae1a172fe887aa3f28a123a9e4e17',
 		'format' : 'iframe',
-		'height' : isMobile ? 50 : 90,
-		'width' : isMobile ? 350 : 728,
+		'height' : 90, //isMobile ? 50 : 90,
+		'width' : Banner_720, //isMobile ? 350 : 728,
 		'params' : {}
     }
     useEffect(() => {
