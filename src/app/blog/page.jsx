@@ -11,7 +11,8 @@ export const metadata = {
 const BlogPage = () => {
   return (
     <>
-        <script src="https://alwingulla.com/88/tag.min.js" data-zone="103993" async data-cfasync="false"></script>
+        <script type='text/javascript' src='//affordspoonsgray.com/27/7c/cc/277cccb139255375f748ddfc6b9d01de.js'></script>
+        <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script>
         <div style={{direction: "ltr"}} className="min-h-screen bg-gray-100 p-6">
             <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
                 <h1 className="text-4xl font-bold text-gray-900 mb-6">
