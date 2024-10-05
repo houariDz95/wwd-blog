@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
     <script type='text/javascript' src='//affordspoonsgray.com/27/7c/cc/277cccb139255375f748ddfc6b9d01de.js'></script>
+    <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script>
     <div className="min-h-screen bg-dark text-white absolute top-0 left-0 z-50  w-full h-full max-w-screen ">
       {/* Header */}
       <header className="bg-black shadow-lg">
@@ -32,7 +33,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <div className="flex items-center justify-center my-2">
+      <div className="flex items-center justify-center my-2 overflow-hidden">
         <Banner_720 />
       </div>
       {/* About Section */}
