@@ -6,6 +6,7 @@ export default function Home() {
     <>
     <script type='text/javascript' src='//affordspoonsgray.com/27/7c/cc/277cccb139255375f748ddfc6b9d01de.js'></script>
     <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script>
+    <script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js"></script>
     <div className="min-h-screen bg-dark text-white absolute top-0 left-0 z-50  w-full h-full max-w-screen ">
       {/* Header */}
       <header className="bg-black shadow-lg">
@@ -99,7 +100,9 @@ export default function Home() {
           </form>
         </div>
       </section>
-
+      <section className="flex items-center justify-center">
+      <div id="container-7d56700dd5a27d1bff2cf4b9a2774565"></div>
+      </section>
       {/* Footer */}
       <footer className="bg-black py-6">
         <div className="container mx-auto text-center">
