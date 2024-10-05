@@ -43,10 +43,10 @@ export default function Home() {
         </div>
 
         {/* About Section */}
-        <section id="about" className="py-12 sm:py-16 bg-gray-800">
+        <section id="about" className="py-12  bg-black sm:py-16 bg-gray-800">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl sm:text-4xl font-bold text-center text-yellow-400 mb-6">About Us</h2>
-            <p className="text-lg text-center max-w-3xl mx-auto">
+            <p className="text-lg text-center max-w-3xl text-white mx-auto">
               The Movie Vault is your ultimate destination for film lovers. From deep-dive reviews to behind-the-scenes stories, we celebrate the art of cinema in every form.
             </p>
           </div>
