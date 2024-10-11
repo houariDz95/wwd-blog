@@ -3,14 +3,14 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-dark">
+    <div className="flex flex-col items-center justify-center h-screen absolute top-0 left-0 max-w-screen w-full z-500 bg-dark">
       <div className="relative w-full h-2/3">
         <Image
           src="/bmw.jpg" // Replace with your image path
           alt="BMW Bike"
-          layout="fill"
-          objectFit="cover"
-          className="rounded-lg shadow-lg"
+          width={720}
+          height={380}
+          className="rounded-lg shadow-lg object-cover"
         />
       </div>
       <div className="text-center mt-6">
