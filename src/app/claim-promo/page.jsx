@@ -56,9 +56,6 @@ const LandingPage = () => {
           Claim this gift & set up your first ads now!
         </p>
       </div>
-      <div className="w-full flex items-center justify-center my-2">
-        <Banner_720 />
-      </div>
     </div>
   );
 };
