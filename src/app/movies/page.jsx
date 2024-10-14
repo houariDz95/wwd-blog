@@ -7,6 +7,7 @@ export default function Home() {
       <script type='text/javascript' src='//affordspoonsgray.com/27/7c/cc/277cccb139255375f748ddfc6b9d01de.js'></script>
       <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script>
       <script async="async" data-cfasync="false" src="//affordspoonsgray.com/7d56700dd5a27d1bff2cf4b9a2774565/invoke.js"></script>
+      <script type='text/javascript' src='//affordspoonsgray.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
       <div className="min-h-screen bg-dark text-white absolute top-0 left-0 z-50 w-full h-full max-w-screen">
         {/* Header */}
         <header className="bg-black shadow-lg">
