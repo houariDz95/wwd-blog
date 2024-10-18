@@ -79,8 +79,8 @@ export default function RootLayout({ children }) {
        <head>
       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7645796"></script> */}
       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>    */}
-       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script>  */}
-      {/* <Script 
+      <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7961235"></script> 
+      <Script 
         id="in-push"
           dangerouslySetInnerHTML={{
             __html: `
@@ -92,8 +92,8 @@ export default function RootLayout({ children }) {
               })('whouseem.com',7325933,document.createElement('script'))
             `,
           }}
-        /> */}
-        {/* <Script 
+        /> 
+        <Script 
         id="vignet"
           dangerouslySetInnerHTML={{
             __html: `
@@ -105,7 +105,7 @@ export default function RootLayout({ children }) {
               })('glizauvo.net', 7344616, document.createElement('script'));
             `,
           }}
-        />   */}
+        />  
       {/* <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7344634"></script>    */}
       </head> 
       <body
@@ -115,7 +115,7 @@ export default function RootLayout({ children }) {
           "font-mr bg-light dark:bg-dark"
         )}
       >
-        {/* <Script 
+      <Script 
         id="banner"
           dangerouslySetInnerHTML={{
             __html: `
@@ -130,7 +130,8 @@ export default function RootLayout({ children }) {
               })({})
             `,
           }}
-        />  */}
+        /> 
+        <script type='text/javascript' src='//affordspoonsgray.com/2d/b3/dc/2db3dc1290e9032f99ff2952bb01f197.js'></script>
         <Header />
         {children}
         <SpeedInsights/>
